@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export default function LandingPage() {
   return (
+    <!-- Trying to make this into our logo icon-->
     <link rel="icon" href="/logo.png" type="image/x-icon" sizes="16x16">
     <main className="min-h-screen bg-gradient-to-br from-black to-slate-900 text-white px-6 py-12">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
