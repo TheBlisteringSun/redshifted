@@ -78,7 +78,7 @@ export default function LandingPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              Welcome to <span className="text-5xl font-bold bg-gradient-to-r from-red-500 to-red-700 bg-clip-text text-transparent">Redshifted</span>
+              About <span className="text-5xl font-bold bg-gradient-to-r from-red-500 to-red-700 bg-clip-text text-transparent">Redshifted</span>
             </motion.h1>
             <motion.p
               className="text-lg text-gray-300 mb-6"
@@ -86,19 +86,13 @@ export default function LandingPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              A youth-powered STEM collective crafting the future with code, hardware, and innovation.
+              Redshifted is a non-profit organisation that hosts events and workshops for youth!
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              <Link href="/contact">
-                    <Button
-                    className="text-lg px-6 py-3 bg-red-600 hover:bg-red-700 rounded-2xl shadow-lg" >
-                        Get Involved
-                    </Button>
-                 </Link>
             </motion.div>
           </div>
 
@@ -110,13 +104,10 @@ export default function LandingPage() {
           >
             <Card className="bg-slate-800 border-none rounded-2xl shadow-2xl w-full max-w-md">
               <CardContent className="p-8">
-                <h2 className="text-xl text-white font-semibold mb-2">Upcoming Hackathon</h2>
+                <h2 className="text-xl text-white font-semibold mb-2">Our Team</h2>
                 <p className="text-sm text-gray-300 mb-4">
-                  Join us for an electrifying weekend of code, collaboration, and cosmic ideas.
+                  Twelve high school students. One mission.
                 </p>
-                <Button className="w-full bg-white text-black hover:bg-gray-200">
-                  Sign Up
-                </Button>
               </CardContent>
             </Card>
           </motion.div>
