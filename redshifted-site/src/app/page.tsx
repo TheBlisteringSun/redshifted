@@ -59,7 +59,7 @@ export default function LandingPage() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <Link href = "https://hcb.hackclub.com/redshifted/donations">
+            <Link href = "https://hcb.hackclub.com/donations/start/redshifted">
             <Button className="bg-red-600 hover:bg-red-700 rounded-xl">
             $ Donate
             </Button>
