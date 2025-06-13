@@ -114,9 +114,11 @@ export default function LandingPage() {
                 <p className="text-sm text-gray-300 mb-4">
                   Join us for an electrifying weekend of code, collaboration, and cosmic ideas.
                 </p>
+                <Link href="/events">
                 <Button className="w-full bg-white text-black hover:bg-gray-200">
                   Sign Up
                 </Button>
+                </Link>
               </CardContent>
             </Card>
           </motion.div>
