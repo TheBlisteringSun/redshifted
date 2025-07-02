@@ -16,6 +16,7 @@ type CarouselItem = {
 };
 
 export default function LandingPage() {
+    const [open, setOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
     const [isHovered, setIsHovered] = useState(false);
   
@@ -106,7 +107,7 @@ export default function LandingPage() {
             <Link href="/#contactus" className="text-gray-300 hover:text-white transition-colors">
               Contact
             </Link>
-            <Link href="/#FAQ" className="text-gray-300 hover:text-white transition-colors">
+            <Link href="/#faq" className="text-gray-300 hover:text-white transition-colors">
               FAQ
             </Link>
           </motion.div>
@@ -291,6 +292,7 @@ export default function LandingPage() {
       </div>
           {/*End of Carousel*/}
           {/*End of About Us*/}
+            </div>
           {/*Beginning of Events */}
           <div className="px-6 py-12" id="events">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
@@ -316,18 +318,60 @@ export default function LandingPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-                <Link href="https://forms.gle/JMkDasNcGQj1Auy89">
+                <Link href="https://catalyst.redshifted.ca">
                     <Button
                     className="text-lg px-6 py-3 bg-red-600 hover:bg-red-700 rounded-2xl shadow-lg" >
-                        Get Involved
+                        Learn More
                     </Button>
                  </Link>
             </motion.div>
           </div>
         </div>
-      </div>
-          {/*Ending of Events */}
 
+          {/*Ending of Events */}
+          {/*Beginning of FAQ */}
+          <div className="px-6 py-12" id="faq">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <motion.h1
+              className="text-5xl font-bold mb-4"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+            >
+              FAQ
+            </motion.h1>
+            <br></br>
+            <motion.p
+              className="text-lg text-gray-300 mb-6"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+            >
+              <div className="max-w-sm my-4 p-4 bg-white rounded-2xl shadow-md">
+                <button
+                  onClick={() => setOpen(!open)}
+                  className="w-full text-left text-lg font-semibold text-gray-800 focus:outline-none"
+                >
+                  +  What is Redshifted?
+                </button>
+                {open && (
+                  <p className="mt-2 text-sm text-gray-600">
+                    Redshifted is
+                  </p>
+                )}
+              </div>
+            </motion.p>
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+            >
+            </motion.div>
+          </div>
+        </div>
+        </div>
+          {/*End of FAQ */}
           {/*Beginning of Contact Us */}
         </div>
       </div>
@@ -349,7 +393,7 @@ export default function LandingPage() {
               transition={{ duration: 0.8 }}
             >
               Please contact us through this google form! 
-              (We are currently still setting up operations)
+              (We are currently setting up operations)
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 10 }}
@@ -367,9 +411,6 @@ export default function LandingPage() {
         </div>
       </div>
           {/*End of Contact Us */}
-          {/*Beginning of FAQ */}
-
-          {/*End of FAQ */}
       </div>
     </main>
   )
