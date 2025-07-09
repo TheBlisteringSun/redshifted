@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Redshifted - Home",
-  description: "Homepage of Redshifted",
+  title: "Redshifted - Empowering Ottawa's Youth Through STEM",
+  description: "Redshifted is a youth-powered STEM collective in Ottawa offering hardware workshops and hackathons for high school students.",
+  keywords: ["STEM", "Ottawa", "youth", "hardware", "workshops", "hackathon", "education"],
 };
 
 export default function RootLayout({
