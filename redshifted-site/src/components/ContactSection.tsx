@@ -8,7 +8,7 @@ export default function ContactSection() {
         
         <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
           <p className="text-lg text-gray-600 mb-6">
-            Ready to join the Redshifted community? We'd love to hear from you!
+            Ready to join the Redshifted community? We&apos;d love to hear from you!
           </p>
           
           <div className="space-y-4">
