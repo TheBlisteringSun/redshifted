@@ -6,20 +6,22 @@ import InitiativeCard from '@/components/InitiativeCard'
 import EventsList from '@/components/EventsList'
 import FAQSection from '@/components/FAQSection'
 import ContactSection from '@/components/ContactSection'
+import AboutUsSection from '@/components/AboutUs'
 import { Button } from '@/components/ui/button'
 
 export default function HomePage() {
   const events = [
     {
       id: '1',
-      title: 'Hardware workshop - from zero to hero: July 26 @ Beaverbrook Library',
+      title: 'Hardware Workshop - from Zero to Hero: July 26 @ Beaverbrook Library',
       date: 'July 26, 2025',
       location: 'Beaverbrook Library'
     },
     {
       id: '2',
-      title: 'Catalyst pre-reg opens August 1',
-      date: 'August 1, 2025'
+      title: 'Catalyst Pre-registration - Opens August 1',
+      date: 'August 1, 2025',
+      location: 'Online'
     }
   ]
 
@@ -37,19 +39,17 @@ export default function HomePage() {
     {
       id: '3',
       question: 'How much do workshops and events cost?',
-      answer: 'We aim to make all our programs as accessible as possible, however some programs have a fee due to the high operating costs. We believe that STEM education should be accessible to everyone, regardless of financial background, which is why we offer need-based waivers. If you need a waiver, please reach out to us at hello@redshifted.org.'
+      answer: 'We aim to make all our programs as accessible as possible, however some programs have a fee due to the high operating costs. We believe that STEM education should be accessible to everyone, regardless of financial background, which is why we offer need-based waivers. If you need a waiver, please reach out to us at hello@redshifted.ca.'
     },
     {
       id: '4',
-      // The &apos; HTML entity is being rendered as literal text because it's inside a JavaScript string,
-      // not HTML. In JSX/React, you should use the actual apostrophe (') character instead.
       question: "What if I've never coded or worked with hardware before?",
       answer: "That's perfect! Our programs are specifically designed for beginners. We'll teach you everything from the ground up in a supportive, no-pressure environment."
     },
     {
       id: '5',
       question: 'How do I sign up for upcoming events?',
-      answer: 'You can reach out to us via email at hello@redshifted.org or follow us on Instagram @redshifted for the latest updates and registration links.'
+      answer: 'You can reach out to us via email at hello@redshifted.ca or follow us on Instagram @redshifted for the latest updates and registration links.'
     },
     {
       id: '6',
@@ -126,7 +126,8 @@ export default function HomePage() {
             <EventsList events={events} />
           </div>
         </section>
-
+        {/*About Us Section*/}
+        <AboutUsSection  />
         {/* FAQ Section */}
         <FAQSection faqs={faqs} />
 
