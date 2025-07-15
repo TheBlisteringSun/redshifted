@@ -31,9 +31,6 @@ export default function Navbar() {
             <Link href="/#initiatives" className="text-gray-700 hover:text-red-600 transition-colors">
               Initiatives
             </Link>
-            <Link href="/#faq" className="text-gray-700 hover:text-red-600 transition-colors">
-              FAQ
-            </Link>
             <Link href="/#contact" className="text-gray-700 hover:text-red-600 transition-colors">
               Contact
             </Link>
@@ -54,38 +51,31 @@ export default function Navbar() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-                      <div className="md:hidden">
-              <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200">
-                <Link
-                  href="/"
-                  className="block px-3 py-2 text-gray-700 hover:text-red-600 transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Home
-                </Link>
-                <Link
-                  href="/#initiatives"
-                  className="block px-3 py-2 text-gray-700 hover:text-red-600 transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Initiatives
-                </Link>
-                <Link
-                  href="/#faq"
-                  className="block px-3 py-2 text-gray-700 hover:text-red-600 transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  FAQ
-                </Link>
-                <Link
-                  href="/#contact"
-                  className="block px-3 py-2 text-gray-700 hover:text-red-600 transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Contact
-                </Link>
-              </div>
+          <div className="md:hidden">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200">
+              <Link
+                href="/"
+                className="block px-3 py-2 text-gray-700 hover:text-red-600 transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Home
+              </Link>
+              <Link
+                href="/#initiatives"
+                className="block px-3 py-2 text-gray-700 hover:text-red-600 transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Initiatives
+              </Link>
+              <Link
+                href="/#contact"
+                className="block px-3 py-2 text-gray-700 hover:text-red-600 transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Contact
+              </Link>
             </div>
+          </div>
         )}
       </div>
     </nav>
