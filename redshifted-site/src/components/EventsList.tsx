@@ -14,9 +14,9 @@ interface EventsListProps {
 export default function EventsList({ events }: EventsListProps) {
   return (
     <div className="space-y-4">
-      <h3 className="text-xl font-semibold text-gray-900 mb-4">
+      <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-12">
         Upcoming Events
-      </h3>
+      </h2>
       {events.map((event) => (
         <Card key={event.id} className="bg-white border border-gray-200 shadow-sm">
           <CardContent className="p-4">

@@ -8,29 +8,29 @@ export default function ContactSection() {
         
         <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
           <p className="text-lg text-gray-600 mb-6">
-            Ready to join the Redshifted community? We'd love to hear from you!
+            Ready to join the Redshifted community? We&apos;d love to hear from you!
           </p>
           
           <div className="space-y-4">
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
               <a 
-                href="mailto:hello@redshifted.org" 
+                href="mailto:hello@redshifted.ca" 
                 className="text-red-600 hover:text-red-700 transition-colors"
               >
-                hello@redshifted.org
+                hello@redshifted.ca
               </a>
             </div>
             
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">Follow Us</h3>
               <a 
-                href="https://instagram.com/redshifted" 
+                href="https://instagram.com/redshifted.ottawa" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-red-600 hover:text-red-700 transition-colors"
               >
-                @redshifted on Instagram
+                @redshifted.ottawa on Instagram
               </a>
             </div>
           </div>
