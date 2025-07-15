@@ -50,15 +50,6 @@ const AboutUsCarousel = () => {
       icon: <Award className="w-8 h-8 text-purple-600" />,
       stats: "25+ Awards Won",
       gradient: "from-purple-500 to-purple-600"
-    },
-    {
-      id: 5,
-      title: "Our Things",
-      description: "We are Redshifted",
-      image: "/api/placeholder/400/300",
-      icon: <Award className="w-8 h-8 text-purple-600" />,
-      stats: "Redshifted",
-      gradient: "from-purple-500 to-purple-600"
     }
   ];
 

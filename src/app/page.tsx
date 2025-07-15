@@ -19,7 +19,7 @@ export default function HomePage() {
     },
     {
       id: '2',
-      title: 'Catalyst Pre-Registration - Opens August 1',
+      title: 'Catalyst Pre-registration - Opens August 1',
       date: 'August 1, 2025',
       location: 'Online'
     }
