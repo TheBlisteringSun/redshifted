@@ -129,13 +129,6 @@ const AboutUsCarousel = () => {
             ))}
           </div>
         </div>
-
-        {/* Control Hint */}
-        <div className="text-center mt-8">
-          <p className="text-sm text-gray-500">
-            Hover over the cards to pause scrolling
-          </p>
-        </div>
       </div>
 
       {/* CSS Animation */}
