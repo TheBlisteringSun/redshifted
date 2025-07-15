@@ -15,10 +15,10 @@ export default function ContactSection() {
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
               <a 
-                href="mailto:hello@redshifted.ca" 
+                href="mailto:hello@redshifted.org" 
                 className="text-red-600 hover:text-red-700 transition-colors"
               >
-                hello@redshifted.ca
+                hello@redshifted.org
               </a>
             </div>
             
