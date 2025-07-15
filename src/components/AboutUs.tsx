@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Users, Award, Target, Heart } from 'lucide-react';
-import Image from 'next/image';
 
 interface Slide {
   id: number;
@@ -71,12 +70,10 @@ const AboutUsCarousel = () => {
       {/* Image Section */}
       <div className="relative h-52 sm:h-56 md:h-64 overflow-hidden">
         <div className={`absolute inset-0 bg-gradient-to-r ${slide.gradient} opacity-20`}></div>
-        <Image
+        <img
           src={slide.image}
           alt={slide.title}
           className="w-full h-full object-cover"
-          width={500}
-          height={500}
         />
         <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-lg">
           {slide.icon}
