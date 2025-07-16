@@ -107,14 +107,14 @@ export default function HomePage() {
                 title="Hardware Workshops"
                 description="Beginner-friendly, in-person hardware workshops around Ottawa for high schoolers."
                 buttonText="Learn More"
-                buttonHref="#contact"
+                buttonHref="https://forms.gle/QyK9ecLEQwuGzw1z9"
               />
               
               <InitiativeCard
                 title="Catalyst Hackathon"
                 description="Catalyst is Ottawa's first hardware hackathon — made for total beginners."
                 buttonText="Get Involved"
-                buttonHref="#contact"
+                buttonHref="https://catalyst.redshifted.ca"
               />
             </div>
           </div>
