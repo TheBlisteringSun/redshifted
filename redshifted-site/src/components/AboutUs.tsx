@@ -31,7 +31,7 @@ const AboutUsCarousel = () => {
       description: "To give every hacker whether first-timer or veteran, a space to experiment, collaborate, and turn 'what if?' into 'what's next.'",
       image: "null",
       icon: <Target className="w-8 h-8 text-green-600" />,
-      stats: "500+ Projects Completed",
+      stats: "Creating a new vision",
       gradient: "from-green-500 to-green-600"
     },
     {
@@ -45,11 +45,11 @@ const AboutUsCarousel = () => {
     },
     {
       id: 4,
-      title: "Why we're Different",
+      title: "Why WE'RE different",
       description: "We're aiming to redefine what hackathons can be - not just about software, but about the hardware too!",
       image: "null",
       icon: <Award className="w-8 h-8 text-purple-600" />,
-      stats: "25+ Awards Won",
+      stats: "Not just software",
       gradient: "from-purple-500 to-purple-600"
     },
     {

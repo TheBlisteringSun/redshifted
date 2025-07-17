@@ -25,6 +25,16 @@ export default function Footer() {
               @redshifted.ottawa
             </a>
           </div>
+          <br></br>
+          <br></br>
+          <p className="text-gray-600 mb-4 max-w-md mx-auto">
+            We run on sponsorships and donations from individuals. If our mission resonates with you, please consider supporting us financially.
+          </p>
+          <a href="https://hcb.hackclub.com/donations/start/redshifted">
+          <button className="bg-red-600 text-white text-sm px-4 py-2 rounded hover:bg-red-700 transition">
+            $ Donate
+          </button>
+          </a>
         </div>
       </div>
     </footer>
