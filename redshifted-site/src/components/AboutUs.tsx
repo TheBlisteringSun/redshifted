@@ -14,22 +14,22 @@ interface Slide {
 
 const AboutUsCarousel = () => {
   const [isPaused, setIsPaused] = useState(false);
-
+//Currently, our slides have no images - this can be changed later on. -Lucas
   const slides = [
     {
       id: 1,
       title: "Our Story",
-      description: "Founded with a vision to transform the industry, we've been delivering exceptional solutions that make a real difference. Our journey began with a simple idea: to create meaningful connections between innovation and real-world impact.",
-      image: "/api/placeholder/400/300",
+      description: "Founded with a vision to empower Ottawa's youth through STEM, Redshifted is an organisation providing opportunities to kids in Ottawa the chance to use their STEM skills.",
+      image: "null",
       icon: <Users className="w-8 h-8 text-blue-600" />,
-      stats: "Founded in 2020",
+      stats: "Founded in 2025",
       gradient: "from-blue-500 to-blue-600"
     },
     {
       id: 2,
       title: "Our Mission",
-      description: "We're dedicated to empowering businesses and individuals through cutting-edge technology and personalized service. Every solution we create is designed to exceed expectations and drive sustainable growth.",
-      image: "/api/placeholder/400/300",
+      description: "To give every hacker whether first-timer or veteran, a space to experiment, collaborate, and turn 'what if?' into 'what's next.",
+      image: "null",
       icon: <Target className="w-8 h-8 text-green-600" />,
       stats: "500+ Projects Completed",
       gradient: "from-green-500 to-green-600"
@@ -37,26 +37,26 @@ const AboutUsCarousel = () => {
     {
       id: 3,
       title: "Our Values",
-      description: "Integrity, innovation, and excellence guide everything we do. We believe in building lasting relationships based on trust, transparency, and mutual respect with every client we serve.",
-      image: "/api/placeholder/400/300",
+      description: "Try the weird idea. Break things. Learn.",
+      image: "null",
       icon: <Heart className="w-8 h-8 text-red-600" />,
-      stats: "50+ Team Members",
+      stats: "10+ Organisers",
       gradient: "from-red-500 to-red-600"
     },
     {
       id: 4,
-      title: "Our Achievements",
-      description: "Recognition for our outstanding work has come from industry leaders and satisfied clients worldwide. These accolades reflect our commitment to excellence and continuous improvement.",
-      image: "/api/placeholder/400/300",
+      title: "Why we're Different",
+      description: "We're aiming to redefine what hackathons can be - not just about software, but about the hardware too!",
+      image: "null",
       icon: <Award className="w-8 h-8 text-purple-600" />,
       stats: "25+ Awards Won",
       gradient: "from-purple-500 to-purple-600"
     },
     {
       id: 5,
-      title: "Our Things",
-      description: "We are Redshifted",
-      image: "/api/placeholder/400/300",
+      title: "Join the Journey",
+      description: "This is just our beginning—help us write the rest! Follow @redshifted.ottawa on iIstagram for updates or DM to get involved. Check out our events!",
+      image: "null",
       icon: <Award className="w-8 h-8 text-purple-600" />,
       stats: "Redshifted",
       gradient: "from-purple-500 to-purple-600"
@@ -71,6 +71,7 @@ const AboutUsCarousel = () => {
       {/* Image Section */}
       <div className="relative h-52 sm:h-56 md:h-64 overflow-hidden">
         <div className={`absolute inset-0 bg-gradient-to-r ${slide.gradient} opacity-20`}></div>
+        {/*
         <Image
           src={slide.image}
           alt={slide.title}
@@ -78,6 +79,7 @@ const AboutUsCarousel = () => {
           width={500}
           height={500}
         />
+        */}
         <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-lg">
           {slide.icon}
         </div>
