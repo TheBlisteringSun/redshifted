@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Users, Award, Target, Heart } from 'lucide-react';
-import Image from 'next/image';
+//import Image from 'next/image';
 
 interface Slide {
   id: number;
@@ -28,7 +28,7 @@ const AboutUsCarousel = () => {
     {
       id: 2,
       title: "Our Mission",
-      description: "To give every hacker whether first-timer or veteran, a space to experiment, collaborate, and turn 'what if?' into 'what's next.",
+      description: "To give every hacker whether first-timer or veteran, a space to experiment, collaborate, and turn 'what if?' into 'what's next.'",
       image: "null",
       icon: <Target className="w-8 h-8 text-green-600" />,
       stats: "500+ Projects Completed",
