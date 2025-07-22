@@ -8,17 +8,17 @@ export default function ContactSection() {
         
         <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
           <p className="text-lg text-gray-600 mb-6">
-            Ready to join the Redshifted community? We&apos;d love to hear from you!
+            Questions about our programs? Email us here!
           </p>
           
           <div className="space-y-4">
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
               <a 
-                href="mailto:hello@redshifted.ca" 
+                href="mailto:programs@redshifted.ca" 
                 className="text-red-600 hover:text-red-700 transition-colors"
               >
-                hello@redshifted.ca
+                programs@redshifted.ca
               </a>
             </div>
             
@@ -33,6 +33,9 @@ export default function ContactSection() {
                 @redshifted.ottawa on Instagram
               </a>
             </div>
+          <p className="text-lg text-gray-600 mb-6">
+            For sponsorship inquries, email <a href="mailto:andy.han2027@gmail.com" className="text-red-600 hover:text-red-700 transition-colors">andy.han2027@gmail.com</a>
+          </p>
           </div>
         </div>
       </div>
