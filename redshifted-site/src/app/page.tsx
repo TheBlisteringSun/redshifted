@@ -54,7 +54,7 @@ export default function HomePage() {
     {
       id: '6',
       question: 'Can I volunteer or help organize events?',
-      answer: "Absolutely! We're always looking for passionate students and community members to help us grow. Send us an email to learn about volunteer opportunities."
+      answer: "We aren't currently looking for volunteers, but if you are looking to join the team, sign up for our mailing list where we share updates and you'll be the first to know when applications open!"
     }
   ]
 
