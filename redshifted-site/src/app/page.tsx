@@ -21,7 +21,7 @@ export default function HomePage() {
       id: '2',
       title: 'Catalyst Pre-Registration - Opens August 1',
       date: 'August 1, 2025',
-      location: 'Online'
+      location: 'Pre-reg Online'
     }
   ]
 
@@ -88,8 +88,8 @@ export default function HomePage() {
               asChild
               className="bg-red-600 hover:bg-red-700 text-white font-medium py-4 px-8 rounded-lg text-lg transition-colors shadow-lg"
             >
-              <a href="#initiatives">
-                Explore Our Work
+              <a href="https://forms.gle/YFrg5NvHttR1Qek36">
+                Sign up for our Newsletter
               </a>
             </Button>
           </div>
@@ -106,14 +106,14 @@ export default function HomePage() {
               <InitiativeCard
                 title="Hardware Workshops"
                 description="Beginner-friendly, in-person hardware workshops around Ottawa for high schoolers."
-                buttonText="Subscribe to our Newsletter to Learn More"
-                buttonHref="https://forms.gle/YFrg5NvHttR1Qek36"
+                buttonText="Learn more"
+                buttonHref="https://forms.gle/BH73frVJH69obdX39"
               />
               
               <InitiativeCard
                 title="Catalyst Hackathon"
-                description="Catalyst is Ottawa's first hardware hackathon — made for total beginners."
-                buttonText="Get Involved"
+                description="Catalyst is Canada's first hardware hackathon — made for total beginners."
+                buttonText="Learn more"
                 buttonHref="https://catalyst.redshifted.ca"
               />
             </div>
