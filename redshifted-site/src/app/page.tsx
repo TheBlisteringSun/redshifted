@@ -13,8 +13,8 @@ export default function HomePage() {
   const events = [
     {
       id: '1',
-      title: 'Hardware Workshop - from Zero to Hero: July 26 @ Beaverbrook Library',
-      date: 'July 26, 2025',
+      title: 'Hardware Workshop - from Zero to Hero: TBD @ Beaverbrook Library',
+      date: 'mm/dd, 2025',
       location: 'Beaverbrook Library'
     },
     {
@@ -106,8 +106,8 @@ export default function HomePage() {
               <InitiativeCard
                 title="Hardware Workshops"
                 description="Beginner-friendly, in-person hardware workshops around Ottawa for high schoolers."
-                buttonText="Learn More"
-                buttonHref="https://forms.gle/QyK9ecLEQwuGzw1z9"
+                buttonText="Subscribe to our Newsletter to Learn More"
+                buttonHref="https://forms.gle/YFrg5NvHttR1Qek36"
               />
               
               <InitiativeCard
