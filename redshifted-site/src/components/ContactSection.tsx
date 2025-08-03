@@ -34,7 +34,7 @@ export default function ContactSection() {
               </a>
             </div>
           <p className="text-lg text-gray-600 mb-6">
-            For sponsorship inquries, email <a href="mailto:andy.han2027@gmail.com" className="text-red-600 hover:text-red-700 transition-colors">andy.han2027@gmail.com</a>
+            For sponsorship inquries, email <a href="mailto:andy.han@redshifted.ca" className="text-red-600 hover:text-red-700 transition-colors">andy.han2027@gmail.com</a>
           </p>
           <br></br>
            <p className="text-lg text-gray-600 mb-6">
