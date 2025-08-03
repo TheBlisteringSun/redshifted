@@ -13,9 +13,9 @@ export default function HomePage() {
   const events = [
     {
       id: '1',
-      title: 'Hardware Workshop - from Zero to Hero: TBD @ Beaverbrook Library',
+      title: 'Hardware Workshop - from Zero to Hero: TBD @ Centrepointe Library',
       date: 'mm/dd, 2025',
-      location: 'Beaverbrook Library'
+      location: 'Centrepointe Library'
     },
     {
       id: '2',
