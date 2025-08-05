@@ -14,7 +14,7 @@ interface PromoBannerProps {
 const PromoBanner: React.FC<PromoBannerProps> = ({ 
   message = "Catalyst Pre-Registration is now open! Sign up today to secure your spot.",
   ctaText = "Visit",
-  ctaLink = "https:/catalyst.redshifted.ca",
+  ctaLink = "https://catalyst.redshifted.ca",
   backgroundColor = "bg-gradient-to-r from-purple-600 to-blue-600",
   onClose,
   showIcon = true,
