@@ -5,6 +5,7 @@ interface Event {
   title: string
   date: string
   location?: string
+  link?: string
 }
 
 interface EventsListProps {
@@ -26,9 +27,11 @@ export default function EventsList({ events }: EventsListProps) {
                   {event.title}
                 </h4>
                 {event.location && (
+                  <a href={event.link}>
                   <p className="text-sm text-gray-500 mt-1">
                     {event.location}
                   </p>
+                  </a>
                 )}
               </div>
               <div className="mt-2 sm:mt-0">

@@ -8,6 +8,7 @@ import FAQSection from '@/components/FAQSection'
 import ContactSection from '@/components/ContactSection'
 import AboutUsSection from '@/components/AboutUs'
 import { Button } from '@/components/ui/button'
+import PromoBanner from '@/components/promo';
 
 export default function HomePage() {
   const events = [
@@ -15,13 +16,14 @@ export default function HomePage() {
       id: '1',
       title: 'Hardware Workshop - from Zero to Hero: TBD @ Centrepointe Library',
       date: 'mm/dd, 2025',
-      location: 'Centrepointe Library'
+      location: 'Centrepointe Library',
     },
     {
       id: '2',
-      title: 'Catalyst Pre-Registration - Opens August 1',
+      title: 'Catalyst Pre-Registration - Open',
       date: 'August 1, 2025',
-      location: 'Pre-reg Online'
+      location: 'Click Here to register',
+      link: 'https://forms.gle/5dPugjZyXTeBbVwo8'
     }
   ]
 
@@ -61,7 +63,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
-      
+      <PromoBanner/>
       <main>
         {/* Landing Page Section */}
         <section className="px-4 py-16 sm:px-6 lg:px-8">
