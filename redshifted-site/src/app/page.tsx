@@ -14,20 +14,13 @@ export default function HomePage() {
   const events = [
     {
       id: '1',
-      title: 'Hardware Workshop - 101 (Beginner): August 16th @ Centrepointe Library',
-      date: '8/16/2025',
-      location: 'Online Portion free to attend! Click here on 8/15/2025 at 6PM to join.',
+      title: 'Hardware Workshop - 101 (Beginner): August 24th @ Ruth E. Dickinson Library',
+      date: '8/24/2025',
+      location: 'Online Portion free to attend! Click here on 8/15/2025 or 8/23/2025 at 6PM to join.',
       link: 'https://meet.google.com/aes-saos-mex'
     },
     {
       id: '2',
-      title: 'Hardware Workshop - 102 (Intermediate): August 23th @ Ruth E. Dickinson Library',
-      date: '8/23/2025',
-      location: 'Online Portion free to attend! Click here on 8/22/2025 at 6PM to join.',
-      link: 'https://meet.google.com/aes-saos-mex'
-    },
-    {
-      id: '3',
       title: 'Catalyst Pre-Registration - Open',
       date: 'August 1, 2025',
       location: 'Click Here to register',
