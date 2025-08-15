@@ -1,3 +1,5 @@
+"use client"
+
 export default function ContactSection() {
   return (
     <section id="contact" className="px-4 py-16 sm:px-6 lg:px-8 bg-gray-50">
@@ -34,24 +36,8 @@ export default function ContactSection() {
               </a>
             </div>
           <p className="text-lg text-gray-600 mb-6">
-            For sponsorship inquries, email <a href="mailto:andy.han@redshifted.ca" className="text-red-600 hover:text-red-700 transition-colors">andy.han2027@gmail.com</a>
+            For sponsorship inquries, email <a href="mailto:andy.han@redshifted.ca" className="text-red-600 hover:text-red-700 transition-colors">andy.han@redshifted.ca</a>
           </p>
-          <br></br>
-           <p className="text-lg text-gray-600 mb-6">
-            Want to contact us for other questions? Fill out this form here!
-          </p>
-          
-          <div className="space-y-4">
-            <div>
-              <h3 className="font-semibold text-gray-900 mb-2">Form</h3>
-              <a 
-                href="https://forms.gle/wqgiuwzkiacNMm62A" 
-                className="text-red-600 hover:text-red-700 transition-colors"
-              >
-                Contact Form
-              </a>
-            </div>
-            </div>
           </div>
         </div>
       </div>
