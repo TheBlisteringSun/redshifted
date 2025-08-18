@@ -16,8 +16,8 @@ export default function HomePage() {
       id: '1',
       title: 'Hardware Workshop - 101 (Beginner): August 24th @ Ruth E. Dickinson Library',
       date: '8/24/2025',
-      location: 'Online Portion free to attend! Click here on 8/15/2025 or 8/23/2025 at 6PM to join.',
-      link: 'https://meet.google.com/aes-saos-mex'
+      location: 'Online Portion free to attend! Click to sign up.',
+      link: 'https://forms.gle/R2rAw3xhsmre6ygd7'
     },
     {
       id: '2',
