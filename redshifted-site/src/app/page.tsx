@@ -14,10 +14,10 @@ export default function HomePage() {
   const events = [
     {
       id: '1',
-      title: 'Hardware Workshop - 101 (Beginner): August 24th @ Ruth E. Dickinson Library',
+      title: 'Hardware Workshop - 101 (Beginner): September 13th @ Ruth E. Dickinson Library',
       date: '8/24/2025',
-      location: 'Online Portion free to attend! Click to sign up.',
-      link: 'https://forms.gle/R2rAw3xhsmre6ygd7'
+      location: 'Online Portion FREE to attend! Click to sign up.',
+      link: 'https://forms.gle/Fi8j6VQU2uCLj1REA'
     },
     {
       id: '2',
