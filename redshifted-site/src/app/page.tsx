@@ -91,7 +91,7 @@ export default function HomePage() {
               asChild
               className="bg-red-600 hover:bg-red-700 text-white font-medium py-4 px-8 rounded-lg text-lg transition-colors shadow-lg"
             >
-              <a href="https://forms.gle/YFrg5NvHttR1Qek36">
+              <a href="https://forms.gle/CU545NKZNxiJtqVU6">
                 Sign up for our Newsletter
               </a>
             </Button>
