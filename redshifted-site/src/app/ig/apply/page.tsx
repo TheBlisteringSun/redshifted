@@ -1,38 +1,14 @@
-'use client'
+"use client"
 
-import { useEffect } from 'react'
-import { useSearchParams } from 'next/navigation'
+import dynamic from 'next/dynamic';
+import { Suspense } from 'react';
 
-export default function Page() {
-  const searchParams = useSearchParams()
+const ApplyRedirect = dynamic(() => import('@/app/ig/apply/ApplyRedirect'), { ssr: false });
 
-  useEffect(() => {
-    const referrer = document.referrer
-    const utm_source = searchParams.get('utm_source')
-    const utm_medium = searchParams.get('utm_medium')
-    const utm_campaign = searchParams.get('utm_campaign')
-
-    // 🔄 Send data to /api/log
-    fetch('/api/log', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        referrer,
-        utm_source,
-        utm_medium,
-        utm_campaign,
-        timestamp: new Date().toISOString(),
-      }),
-    })
-      .catch((err) => console.error('Failed to log:', err))
-      .finally(() => {
-        // Wait 300ms and redirect
-        setTimeout(() => {
-          window.location.href =
-            'https://docs.google.com/forms/d/e/1FAIpQLSfZQpL5xmNO266_x1ZHimDnUfDyqBvJ9YzRGnlwbYUlS-1eRQ/viewform'
-        }, 300)
-      })
-  }, [searchParams])
-
-  return <p>Redirecting you to the form...</p>
+export default function ApplyPage() {
+  return (
+    <Suspense fallback={<p>Redirecting...</p>}>
+      <ApplyRedirect />
+    </Suspense>
+  );
 }
