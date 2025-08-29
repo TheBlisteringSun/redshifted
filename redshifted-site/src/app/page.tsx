@@ -57,7 +57,7 @@ export default function HomePage() {
     {
       id: '6',
       question: 'Can I volunteer or help organize events?',
-      answer: "We aren't currently looking for volunteers, but if you are looking to join the team, sign up for our mailing list where we share updates and you'll be the first to know when applications open!"
+      answer: "Yes! We're currently looking for passionate volunteers to help us run workshops and events. If you're interested, please apply at https://redshifted.ca/ig/apply."
     }
   ]
 
@@ -109,7 +109,7 @@ export default function HomePage() {
               <InitiativeCard
                 title="Hardware Workshops"
                 description="Beginner-friendly, in-person hardware workshops around Ottawa for high schoolers."
-                buttonText="Learn more"
+                buttonText="Sign up!"
                 buttonHref="https://forms.gle/BH73frVJH69obdX39"
               />
               
