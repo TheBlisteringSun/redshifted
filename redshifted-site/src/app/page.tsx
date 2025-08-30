@@ -9,8 +9,6 @@ import ContactSection from '@/components/ContactSection'
 import AboutUsSection from '@/components/AboutUs'
 import { Button } from '@/components/ui/button'
 import PromoBanner from '@/components/promo';
-import { Analytics } from "@vercel/analytics/next"
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 export default function HomePage() {
@@ -66,8 +64,6 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Analytics/>
-      <SpeedInsights/> 
       <Navbar />
       <PromoBanner/>
       <main>
