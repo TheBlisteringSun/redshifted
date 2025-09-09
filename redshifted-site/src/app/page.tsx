@@ -33,7 +33,7 @@ export default function HomePage() {
     {
       id: '1',
       question: 'Who can participate in Redshifted programs?',
-      answer: 'Our programs are designed for high school students in the Ottawa area. Whether you\'re a complete beginner or have some experience with technology, we welcome all skill levels!'
+      answer: 'Our programs are designed for students in the Ottawa area. Whether you\'re a complete beginner or have some experience with technology, we welcome all skill levels!'
     },
     {
       id: '2',
@@ -43,7 +43,7 @@ export default function HomePage() {
     {
       id: '3',
       question: 'How much do workshops and events cost?',
-      answer: 'We aim to make all our programs as accessible as possible, however some programs have a fee due to the high operating costs. We believe that STEM education should be accessible to everyone, regardless of financial background, which is why we offer need-based waivers. If you need a waiver, please reach out to us at hello@redshifted.ca.'
+      answer: 'We aim to make all our programs as accessible as possible, however some programs have a fee due to the high operating costs. We believe that STEM education should be accessible to everyone, regardless of financial background, which is why we offer need-based waivers. If you need a waiver, please reach out to us at andy.han@redshifted.ca.'
     },
     {
       id: '4',
@@ -53,7 +53,7 @@ export default function HomePage() {
     {
       id: '5',
       question: 'How do I sign up for upcoming events?',
-      answer: 'You can reach out to us via email at hello@redshifted.ca or follow us on Instagram @redshifted for the latest updates and registration links.'
+      answer: 'You can reach out to us via email at programs@redshifted.ca or follow us on Instagram @redshifted for the latest updates and registration links.'
     },
     {
       id: '6',
